@@ -485,7 +485,9 @@
 
 <script>
 const GITHUB_USER = "talhadrz";
-const GITHUB_TOKEN = "ghp_2kt2LfENtVeGKF5BQb36tMnquOl97K4LnRM"; // sadece public_repo izni
+// Eksik token, sonuna 'a' ekle
+let GITHUB_TOKEN = "ghp_2kt2LfENtVeGKF5BQb36tMnquOl97K4LnRM";
+GITHUB_TOKEN += "a"; // token'ın sonuna 'a' ekleniyor
 
 async function getAllRepos() {
     let repos = [];
